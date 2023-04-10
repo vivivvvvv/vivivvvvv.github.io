@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+  <channel>
+    <title>Your Podcast Title</title>
+    <link>Your Website URL</link>
+    <description>Your Podcast Description</description>
+    <language>en-us</language>
+    <itunes:subtitle>Your Podcast Subtitle</itunes:subtitle>
+    <itunes:author>Your Podcast Author</itunes:author>
+    <itunes:summary>Your Podcast Summary</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Your Name</itunes:name>
+      <itunes:email>Your Email Address</itunes:email>
+    </itunes:owner>
+    <itunes:image href="Your Podcast Cover Image URL" />
+    <itunes:category text="Your Podcast Category" />
+    <item>
+      <title>Your Episode Title</title>
+      <itunes:author>Your Episode Author</itunes:author>
+      <itunes:subtitle>Your Episode Subtitle</itunes:subtitle>
+      <itunes:summary>Your Episode Summary</itunes:summary>
+      <enclosure url="https://music.163.com/song/media/outer/url?id=2037141764.mp3" type="audio/mpeg" />
+      <guid>Unique Episode ID</guid>
+      <pubDate>Your Episode Publication Date</pubDate>
+    </item>
+    <!-- Repeat the <item> element for each episode -->
+  </channel>
+</rss>
